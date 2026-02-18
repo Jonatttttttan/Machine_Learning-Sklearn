@@ -1,0 +1,12 @@
+--------------------------------------------------
+Sat Jan 31 12:27:19 2026
+filename dataset: dataset/titanic.csv
+{'random_forest': (array([[92, 13],
+       [16, 58]]), {'false_positive_rate': array([0.        , 0.12380952, 1.        ]), 'true_positive_rate': array([0.        , 0.78378378, 1.        ]), 'area_under_curve': 0.82998712998713}, np.float64(83.79888268156425), 0.1172212001401931, RandomForestClassifier(criterion='entropy')), 'knn': (array([[92, 13],
+       [19, 55]]), {'false_positive_rate': array([0.        , 0.12380952, 1.        ]), 'true_positive_rate': array([0.        , 0.74324324, 1.        ]), 'area_under_curve': 0.8097168597168597}, np.float64(82.12290502793296), 0.007582399994134903, KNeighborsClassifier()), 'svm': (array([[97, 10],
+       [24, 48]]), {'false_positive_rate': array([0.        , 0.09345794, 1.        ]), 'true_positive_rate': array([0.        , 0.66666667, 1.        ]), 'area_under_curve': 0.7866043613707164}, np.float64(81.00558659217877), 0.01087319990620017, SVC(kernel='linear')), 'logistic_regression': (array([[94, 24],
+       [14, 47]]), {'false_positive_rate': array([0.        , 0.20338983, 1.        ]), 'true_positive_rate': array([0.       , 0.7704918, 1.       ]), 'area_under_curve': 0.7835509863851069}, np.float64(78.77094972067039), 0.007684699958190322, LogisticRegression()), 'naive_bayes': (array([[95, 17],
+       [25, 42]]), {'false_positive_rate': array([0.        , 0.15178571, 1.        ]), 'true_positive_rate': array([0.        , 0.62686567, 1.        ]), 'area_under_curve': 0.7375399786780383}, np.float64(76.53631284916202), 0.006417500087991357, GaussianNB()), 'decision_tree': (array([[83, 23],
+       [20, 53]]), {'false_positive_rate': array([0.        , 0.21698113, 1.        ]), 'true_positive_rate': array([0.       , 0.7260274, 1.       ]), 'area_under_curve': 0.7545231325924011}, np.float64(75.97765363128491), 0.06864660000428557, DecisionTreeClassifier(criterion='entropy'))}
+Namespace(dataset='dataset/titanic.csv', delimiter=',', fill_missing_data_columns=2, one_hot_encoding_columns='0,1', test_size=0.2, print_accuracy=False, cross_validation=False, k_fold_cross_validation=3, random_forest=False, decision_tree=False, logistic_regression=False, knn=False, naive_bayes=False, svm=False, run_all=True, sort_by_time=False, debug=False, clean_log=False, n_estimators=100, criterion='entropy', solver='lbfgs', n_neighbors=5, power_parameter_minkowski_metric=2, kernel='linear')
+
